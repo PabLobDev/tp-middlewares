@@ -12,7 +12,7 @@ module.exports = {
     return res.render("register", { title: "Register" });
   },
   admin: (req, res) => {
-    let administradores = ['Ada','Greta','Vim','Tim'];
-    return res.render("admin", { title: "Administrador" },administradores);    
+    let admins = ['Ada','Greta','Vim','Tim'];
+    return res.render("admin", { title: "Administrador" },admins);    
   },
 };
